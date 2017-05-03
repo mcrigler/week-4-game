@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang = "en-US">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="Week 4 Homework - Star Wars Game">
+      <meta name="keywords" content="Marya, coding, bootcamp, part-time">
+      <meta name="author" content="Marya Crigler">
+<!-- Link to reset Style Sheets -->
+      <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+<!-- Link to the Bootstrap CDN -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<!-- Link to my customized style sheet -->
+      <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+<!-- Linkk to jQuery -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!--  title  -->
+      <title>Star Wars RPG MDC</title>  
+   </head>
+   <body>
+      <div class="page-header pgHeader">
+         <h1>Star Wars RPG <small>- May the Force be with you.</small></h1>
+      </div>
+   <!-- Row 1 of 6   - Section lable  -->
+   <div class = "row">
+      <div class = "col-md-12">
+         <p class = "sectionHeader" id="headerMain">Choose your character</p>
+      </div>
+   </div> <!-- end row 1 of 6   -->
+   <!-- Row 2 of 6  - columns in the div to be dynamically created by javascript -->
+      <div class = "row" id="Main-stage">
+      </div>  <!-- End row 2 of    -->  
+   <!-- Row 3 of 6 -->
+   <div class = "row">
+      <div class = "col-md-12">
+         <p class = "sectionHeader" id="headerVillain">Enemies Available to Battle</p>
+      </div>
+   </div> <!-- end Row 3 of 6   -->
+   <!-- Row 4 of 6  - cols in the div to be dynamically created by javascript -->
+      <div class = "row" id="Villain-stage">
+      </div> <!-- End row 4 of   -->
+     <!-- row 5 of 6 -->
+   <div class = "row">
+      <div class = "col-md-12">
+         <p class = "sectionHeader" id="headerBattle">Prepare to Battle</p>
+      </div>
+   </div> <!-- end row 5 of 6   -->
+   <!-- Row 6 of 6   -->
+   <div class = "row" id = "Battle-stage">
+   </div> 
+   <!--Row 7 of 7  -->
+   <div class = "row">
+   <!-- Col 2 of 3  -->
+      <div class = "col-md-1 col-md-offset-2">
+         <br><br>
+         <button type="button" class="btn btn-danger btn-lg btnAttack " id="btnAttack">Attack</button>
+      </div>
+      <!-- Col 3 of 3  -->
+      <div class = "col-md-1 col-md-offset-1">
+         <br><br>
+         <button type="button" class="btn btn-info btn-lg btnReset">Reset</button>
+      </div>
+   </div> <!-- end Row 6 of 6  -->
+   <br>
+
+   <footer>&copy;Copyright 2017 Marya Crigler
+   </footer>
+
+<!-- jQuery, javascript file for the Bootstrap's javascript file to function -->
+      <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+<!-- Bootstrap's javascript file that allows the dropdown menu to work  -->
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+ <!--Star Wars game javascript  -->
+   
+     <script type="text/javascript" src="assets/javascript/game.js"> 
+     
+    </script>  
+   </body>
+   </html>  
